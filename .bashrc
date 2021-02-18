@@ -1,3 +1,7 @@
+# Set vim as default editor
+120 export VISUAL=vim
+121 export EDITOR="$VISUAL"
+ 
 # Add scripts to PATH
 export PATH=$PATH:~/code/scripts
 
