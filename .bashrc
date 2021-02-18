@@ -1,7 +1,11 @@
 # Set vim as default editor
 120 export VISUAL=vim
 121 export EDITOR="$VISUAL"
- 
+
+# Enable search forward
+# https://stackoverflow.com/questions/791765/unable-to-forward-search-bash-history-similarly-as-with-ctrl-r
+stty -ixon
+
 # Add scripts to PATH
 export PATH=$PATH:~/code/scripts
 
